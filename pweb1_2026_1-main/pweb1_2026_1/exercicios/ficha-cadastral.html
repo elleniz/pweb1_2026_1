@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-ficha-cadastral.css">  
+    <title>Ficha cadastral</title>
+</head>
+<body>
+    <form action="action_page.html">
+    <fieldset>
+        <legend></legend>
+
+        <h2>Ficha cadastral</h2>
+        <form>
+            <label for="pnome" id="nome1">Nome:</label>
+            <input type="text" id="nome" name="pnome" size="55"><br><br>
+
+            <label for="rg" id="rg1">RG:</label>
+            <input type="text" id="rg" name="rg" size="13">
+
+            <label for="cpf" id="cpf1">CPF:</label>
+            <input type="text" id="cpf" name="cpf" size="13"><br><br>   
+
+            <label for="endereco" id="endereco1">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" size="55"><br><br>
+
+            <label for="sexo" id="sexo1">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="O">Outro</option>
+            </select>
+
+            <label for="data" id="data-nasc">Data de nascimento:</label>
+            <input type="text" id="data" name="data" size="13">
+ 
+            <br>
+
+            <label for="estado-civil">Situação civil:</label>
+            <input type="radio" id="estado-civil" name="estado-civil" value="solteiro">
+            <label for="estado-civil" id="estado-civil" name="estado-civil">Solteiro</label>
+            
+            <input type="radio" id="estado-civil" name="estado-civil" value="casado">
+            <label for="estado-civil" id="estado-civil" name="estado-civil">Casado</label>
+
+            <input type="radio" id="estado-civil" name="estado-civil" value="viúvo">
+            <label for="estado-civil" id="estado-civil" name="estado-civil">Viúvo</label> <br><br>
+            <input type="reset" value="Limpar dados"> 
+
+            </form>
+    </fieldset>
+</form>
+    
+</body>
+</html>
+
