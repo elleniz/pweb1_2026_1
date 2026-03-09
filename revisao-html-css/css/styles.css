@@ -43,8 +43,10 @@ nav a:hover{
 }
 
 div {
-
+    display: flex;
+    min-height: calc(100vh - 180px);
 }
+
 
 aside {
     background-color: rgb(4, 112, 22);
@@ -53,15 +55,18 @@ aside {
     color: #ffffff;
 }
 
-main {}
+main {    
+    background-color: white;
+    width: 60%;
+    padding: 20px;}
+
+footer {
+    background-color: greenyellow;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
 
 h1{
     font-size: 26px;
-}
-
-.itens {
-
-    align-items: center;
-    justify-content: center;
-    width: 300px;
 }
